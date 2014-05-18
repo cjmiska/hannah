@@ -16,7 +16,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Indie Flower";
     font-weight: 400;
-    color: #333;
+    color: #fff;
 }
 
 h4 {
@@ -26,7 +26,7 @@ h4 {
 
 h1, h2, h3 {
     font-family: 'Indie Flower',cursive;
-    margin-top: 30px;
+    margin-top: 10px;
     font-weight: 100;
     text-transform: uppercase;
     margin-bottom: 30px;
