@@ -3,7 +3,7 @@ MAIN STYLE
 *******************************************************************************************************************************/
 body {
   background-color: #f2f2f2;
-    font-family: "Indie Flower";
+    font-family: "Lato";
     font-weight: 300;
     font-size: 16px;
     color: #555;
@@ -14,7 +14,7 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Indie Flower";
+    font-family: "Lato";
     font-weight: 400;
     color: #fff;
 }
@@ -25,9 +25,8 @@ h4 {
 }
 
 h1, h2, h3 {
-    font-family: 'Indie Flower',cursive;
-    font-weight: 100;
-    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
 
 h1{
@@ -102,10 +101,15 @@ HEADER
 .icolinks {
     height: 80px;
     width: 80px;
+    margin-top: 30px;
+}
+
+svg path {
+    fill: #fff;
 }
 
 svg:hover path {
-    fill: #fff;
+    fill: hotpink;
 }
 /******************************************************************************************************************************
 RESPONSIVE
