@@ -102,6 +102,11 @@ HEADER
     height: 80px;
     width: 80px;
     margin-top: 30px;
+    color: white;
+}
+
+.icolinks:hover {
+    color: hotpink;
 }
 
 svg path {
