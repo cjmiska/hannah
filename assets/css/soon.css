@@ -106,15 +106,15 @@ HEADER
 }
 
 .icolinks:hover {
-    color: hotpink;
+    color: mediumpurple;
 }
 
 svg path {
-    fill: #fff;
+    fill: white;
 }
 
 svg:hover path {
-    fill: hotpink;
+    fill: mediumpurple;
 }
 /******************************************************************************************************************************
 RESPONSIVE
