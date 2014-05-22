@@ -111,11 +111,11 @@ HEADER
 
 svg path {
     fill: white;
-    transform: scale(2);
 }
 
 svg:hover path {
     fill: mediumpurple;
+    transform: rotate(360);
 }
 
 
