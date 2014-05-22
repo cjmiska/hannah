@@ -115,7 +115,7 @@ svg path {
 
 svg:hover path {
     fill: mediumpurple;
-    transform: translateY(10);
+    transform: translate(0, 10);
 }
 
 
