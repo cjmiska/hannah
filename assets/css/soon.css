@@ -115,7 +115,7 @@ svg path {
 
 svg:hover path {
     fill: mediumpurple;
-    transform: rotate(360);
+    transform: scale(-1);
 }
 
 
