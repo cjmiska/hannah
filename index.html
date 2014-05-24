@@ -97,9 +97,11 @@
             svgeezy.init(false, 'png');
         </script>
         <script>
-            svg.mouseover(function() {
-                svg.transform(");
-                svg.animate({transform: "r" + 360 + ",200,200"}, 1000, mina.bounce);
+            var elem = document.getElementById("svg");
+
+            elem.mouseover(function() {
+                elem.transform(");
+                elem.animate({transform: "r" + 360 + ",200,200"}, 1000, mina.bounce);
             });
         </script>
         <script>
