@@ -10,7 +10,7 @@ section a {
 	position: relative;
 	display: inline-block;
 	outline: none;
-	color: #404d5b;
+	color: mediumpurple;
 	vertical-align: bottom;
 	text-decoration: none;
 	white-space: nowrap;
@@ -44,7 +44,7 @@ section a::after {
 }
 
 .link-curtain a::before {
-	border-top: 2px solid #fff;
+	border-top: 2px solid mediumpurple;
 	background: transparent;
 	-webkit-transition-delay: 0.3s;
 	transition-delay: 0.3s;
@@ -68,7 +68,7 @@ section a::after {
 
 .link-curtain a::after {
 	z-index: -1;
-	background: rgba(255,255,255,0.7);
+	background: mediumpurple /*rgba(255,255,255,0.7)*/;
 	-webkit-transform: translateY(-100%);
 	transform: translateY(-100%);
 }
