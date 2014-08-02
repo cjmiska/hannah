@@ -4491,6 +4491,11 @@ section a::after {
   -webkit-transform: translateY(calc(100% - 2px));
   transform: translateY(calc(100% - 2px)); }
 
+.link-curtain a:hover,
+.link-curtain a:focus {
+  color: white;
+  text-decoration: none; }
+
 .link-curtain a:hover::before,
 .link-curtain a:focus::before {
   -webkit-transition-delay: 0s;
