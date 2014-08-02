@@ -4474,13 +4474,13 @@ section a::after {
 /* Scale down */
 .link-scaledown a {
   color: #293b4c;
-  font-weight: 500;
+  font-weight: 700;
   -webkit-transition: color 0.3s;
   transition: color 0.3s; }
 
 .link-scaledown a:hover,
 .link-scaledown a:focus {
-  color: #f3f3f3;
+  color: mediumpurple;
   text-decoration: none; }
 
 .link-scaledown a::before {
