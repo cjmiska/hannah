@@ -25,6 +25,56 @@
 
 <body>
 
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+        <form class="form-horizontal" action="http://forms.brace.io/christopherstock@hotmail.co.uk" method="post">
+            <fieldset>
+
+<!-- Form Name -->
+                <legend class="centered">Contact Us</legend>
+
+<!-- Text input-->
+                <div class="form-group">
+                    <label class="col-sm-12 control-label" for="textinput"></label>
+                    <div class="col-sm-12">
+                        <input id="textinput" name="Name" placeholder="name" class="form-control input-md" required="" type="text">
+                    </div>
+                </div>
+
+<!-- Text input-->
+                <div class="form-group">
+                    <label class="col-sm-12 control-label" for="textinput"></label>
+                    <div class="col-sm-12">
+                        <input id="textinput" name="email" placeholder="email" class="form-control input-md" required="" type="text">
+                    </div>
+                </div>
+
+<!-- Textarea -->
+                <div class="form-group">
+                    <label class="col-sm-12 control-label" for="textarea"></label>
+                    <div class="col-sm-12">
+                        <textarea class="form-control" id="textarea" name="message">message</textarea>
+                    </div>
+                </div>
+
+<!-- Button -->
+                <div class="form-group">
+                    <label class="col-sm-12 control-label" for="singlebutton"></label>
+                    <div class="col-sm-12">
+                        <button id="singlebutton" name="" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button id="singlebutton" name="" class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+
+            </fieldset>
+        </form>
+    </div>
+  </div>
+</div>
+
+
 <div id="skrollr-body">
 
     <header data-0="background-position:0px 0px;" data-500="background-position:0px -250px;">
@@ -40,6 +90,7 @@
     </div>
 
     </header>
+
 
 <div class="container">
     <div class="row">
@@ -89,6 +140,10 @@
 
     </div>
 
+        <section class="link-curtain">
+            <p>If you like what you see and want to know more then feel free to <a href="#">get in touch.</a></p>
+        </section>
+
 </div>
 
 <footer>
@@ -96,6 +151,13 @@
     <div class="container">
 
         <hr>
+
+        <!-- Button trigger modal -->
+        <div class="centered">
+        <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+            Get in touch
+        </button>
+        </div>
 
         <div class="centered">
 
