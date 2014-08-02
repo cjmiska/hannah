@@ -29,62 +29,41 @@ section a::after {
 	font-smoothing: antialiased;
 }
 
-/* Curtain */
-.link-curtain a {
-    overflow: hidden;
-	font-weight: 700;
+/* Scale down */
+.link-scaledown a {
+	color: #293b4c;
+	font-weight: 500;
+	-webkit-transition: color 0.3s;
+	transition: color 0.3s;
 }
 
-.link-curtain a::before,
-.link-curtain a::after {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	content: '';
-	-webkit-transition: -webkit-transform 0.3s;
-	transition: transform 0.3s;
-}
-
-.link-curtain a::before {
-	border-top: 2px solid mediumpurple;
-	background: transparent;
-	-webkit-transition-delay: 0.3s;
-	transition-delay: 0.3s;
-	-webkit-transform: translateY( calc(100% - 2px) );
-	transform: translateY( calc(100% - 2px) );
-}
-
-.link-curtain a:hover,
-.link-curtain a:focus {
-    color: inherit;
+.link-scaledown a:hover,
+.link-scaledown a:focus {
+	color: #f3f3f3;
     text-decoration: none;
 }
 
-.link-curtain a:hover::before,
-.link-curtain a:focus::before {
-	-webkit-transition-delay: 0s;
-	transition-delay: 0s;
-}
-
-.link-curtain a:hover::before,
-.link-curtain a:focus::before,
-.link-curtain a:hover::after,
-.link-curtain a:focus::after {
-	-webkit-transform: translateX(0);
-	transform: translateX(0);
-}
-
-.link-curtain a::after {
+.link-scaledown a::before {
+	position: absolute;
+	top: 0;
+	left: 0;
 	z-index: -1;
-	background: mediumpurple /*rgba(255,255,255,0.7)*/;
-	-webkit-transform: translateY(-100%);
-	transform: translateY(-100%);
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	background-color: rgba(255,255,255,1);
+	content: '';
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.2s, opacity 0.3s, background-color 0.2s;
+	transition: transform 0.2s, opacity 0.2s, background-color 0.2s;
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }
 
-.link-curtain a:hover::after,
-.link-curtain a:focus::after {
-	-webkit-transition-delay: 0.3s;
-	transition-delay: 0.3s;
+.link-scaledown a:hover::before,
+.link-scaledown a:focus::before {
+	background-color: rgba(255,255,255,0);
+	opacity: 1;
+	-webkit-transform: scaleX(1) scaleY(0.618);
+	transform: scaleX(1) scaleY(0.618);
 }
