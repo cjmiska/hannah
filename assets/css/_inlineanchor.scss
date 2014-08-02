@@ -4,10 +4,14 @@ section {
 	overflow: hidden;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
+    font-family: 'lato';
+    font-size: 1.4em;
+    line-height: 1.5em;
 }
 
 section a {
 	position: relative;
+    font-family: 'lato';
 	display: inline-block;
 	outline: none;
 	vertical-align: bottom;
@@ -27,8 +31,8 @@ section a::after {
 
 /* Curtain */
 .link-curtain a {
-	overflow: hidden;
-	font-weight: 500;
+    overflow: hidden;
+	font-weight: 700;
 }
 
 .link-curtain a::before,
