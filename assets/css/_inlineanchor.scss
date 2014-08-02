@@ -30,6 +30,10 @@ section a::after {
 }
 
 /* Scale down */
+.link-scaledown {
+	background: rgba(149,165,166,0.5);
+}
+
 .link-scaledown a {
 	color: #293b4c;
 	font-weight: 700;
